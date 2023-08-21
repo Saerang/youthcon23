@@ -25,7 +25,5 @@ public class User {
         this.email = email;
         this.password = password;
         this.nickname = nickname;
-
-        List<Object> list = new ArrayList<>();
     }
 }
