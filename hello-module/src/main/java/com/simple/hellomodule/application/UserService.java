@@ -14,7 +14,7 @@ public class UserService {
     }
 
     public User findUserById(Long userId) {
-        return userRepository.findById(userId);
+        return userRepository.findById(userId).orElseThrow();
     }
 
     public void deleteUserById(Long userId) {

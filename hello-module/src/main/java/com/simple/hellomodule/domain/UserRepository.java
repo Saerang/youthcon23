@@ -1,8 +1,6 @@
 package com.simple.hellomodule.domain;
 
-public interface UserRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
-    User findById(Long userId);
-
-    void deleteById(Long userId);
+public interface UserRepository extends JpaRepository<User, Long> {
 }
