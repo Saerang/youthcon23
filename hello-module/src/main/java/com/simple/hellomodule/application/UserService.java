@@ -5,8 +5,6 @@ import com.simple.hellomodule.domain.User;
 import com.simple.hellomodule.domain.UserRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.NoSuchElementException;
-
 @Service
 public class UserService {
 
