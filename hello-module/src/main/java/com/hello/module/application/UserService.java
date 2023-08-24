@@ -1,7 +1,7 @@
-package com.hellomodule.application;
+package com.hello.module.application;
 
-import com.hellomodule.domain.User;
-import com.hellomodule.domain.UserRepository;
+import com.hello.module.domain.User;
+import com.hello.module.domain.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service

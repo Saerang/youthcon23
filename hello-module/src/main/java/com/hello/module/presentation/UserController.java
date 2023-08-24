@@ -1,7 +1,7 @@
-package com.hellomodule.presentation;
+package com.hello.module.presentation;
 
-import com.hellomodule.application.UserService;
-import com.hellomodule.domain.User;
+import com.hello.module.application.UserService;
+import com.hello.module.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
